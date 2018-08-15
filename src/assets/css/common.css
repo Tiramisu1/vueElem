@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+* {
+    margin: 0;
+    padding: 0
+}
+body, html{
+    line-height: 1;
+    font-weight: 200;
+    font-family: 'PingFang SC','STHeitiSC-Light','Helvetica-Light',Arial, Helvetica, sans-serif
+}
+.clearfix{
+    display: inline-block;
+}
+.clearfix:after{
+    display: block;
+    content: '.';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.decrease {
+    background-image: url(../img/decrease_2@2x.png);
+}
+.discount {
+    background-image: url(../img/discount_2@2x.png);
+}
+.special {
+    background-image: url(../img/special_2@2x.png);
+}
+.invoice {
+    background-image: url(../img/invoice_2@2x.png);
+}
+.guarantee {
+    background-image: url(../img/guarantee_2@2x.png);
+}
